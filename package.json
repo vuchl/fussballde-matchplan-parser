@@ -1,0 +1,29 @@
+{
+  "name": "fussballde-matchplan-parser",
+  "version": "0.0.1",
+  "description": "a parser for fussball.de match plans in html",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vuchl/fussballde-matchplan-parser.git"
+  },
+  "keywords": [
+    "fussballde",
+    "fussball.de",
+    "matchplan",
+    "parser"
+  ],
+  "author": "sebastian Vogel <vogel_sebastian1@freenet.de>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vuchl/fussballde-matchplan-parser/issues"
+  },
+  "homepage": "https://github.com/vuchl/fussballde-matchplan-parser#readme",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "node-fetch": "^1.7.3"
+  }
+}
